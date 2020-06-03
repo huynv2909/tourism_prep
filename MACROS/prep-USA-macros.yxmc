@@ -1,0 +1,579 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.1">
+  <Nodes>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.ControlParam.ControlParam">
+        <Position x="54" y="54" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Control Parameter (20)</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="54" y="138" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">..\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>True</FirstRowData>
+            <ImportLine>2</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>usa_input.xlsx
+Query=`2012 COR Month-QTR Volume$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="F1" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F2" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F3" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F4" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F5" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F6" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F7" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F8" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F9" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F10" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F11" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F12" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F13" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F14" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F15" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F16" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F17" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F18" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F19" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F20" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F21" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F22" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F23" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F24" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F25" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F26" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F27" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F28" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F29" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F30" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F31" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F32" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F33" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F34" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F35" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F36" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F37" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F38" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F39" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F40" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F41" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F42" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F43" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F44" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F45" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F46" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F47" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F48" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F49" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F50" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F51" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F52" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F53" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F54" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F55" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F56" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F57" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F58" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F59" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F60" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F61" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F62" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F63" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F64" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F65" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F66" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F67" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F68" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F69" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F70" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F71" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="138" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="F2" selected="True" />
+            <SelectField field="F3" selected="True" />
+            <SelectField field="F4" selected="True" />
+            <SelectField field="F5" selected="True" />
+            <SelectField field="F7" selected="True" />
+            <SelectField field="F8" selected="True" />
+            <SelectField field="F9" selected="True" />
+            <SelectField field="F11" selected="True" />
+            <SelectField field="F12" selected="True" />
+            <SelectField field="F13" selected="True" />
+            <SelectField field="F15" selected="True" />
+            <SelectField field="F16" selected="True" />
+            <SelectField field="F17" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="F2" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F3" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F4" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F5" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F7" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F8" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F9" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F11" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F12" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F13" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F15" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F16" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F17" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+        <Position x="234" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RenameMode>FirstRow</RenameMode>
+          <Fields orderChanged="False">
+            <Field name="F2" />
+            <Field name="F3" />
+            <Field name="F4" />
+            <Field name="F5" />
+            <Field name="F7" />
+            <Field name="F8" />
+            <Field name="F9" />
+            <Field name="F11" />
+            <Field name="F12" />
+            <Field name="F13" />
+            <Field name="F15" />
+            <Field name="F16" />
+            <Field name="F17" />
+            <Field name="*Unknown" />
+          </Fields>
+          <Expression />
+          <FirstRow>
+            <OnError>Warn</OnError>
+          </FirstRow>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="I-94 Arrivals based on Country of Residence (COR)" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="2012-01-01" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="2012-02-01" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="2012-03-01" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="2012-04-01" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="2012-05-01" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="2012-06-01" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="2012-07-01" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="2012-08-01" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="2012-09-01" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="2012-10-01" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="2012-11-01" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="2012-12-01" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings>
+        <Position x="330" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Ranges">21-70</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="I-94 Arrivals based on Country of Residence (COR)" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="2012-01-01" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="2012-02-01" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="2012-03-01" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="2012-04-01" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="2012-05-01" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="2012-06-01" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="2012-07-01" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="2012-08-01" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="2012-09-01" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="2012-10-01" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="2012-11-01" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="2012-12-01" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="C:\Users\HuyNguyen\Downloads\prep-all\_externals\2\SelectRecords.yxmc" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="426" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="I-94 Arrivals based on Country of Residence (COR)" />
+          </KeyFields>
+          <DataFields>
+            <Field field="I-94 Arrivals based on Country of Residence (COR)" selected="False" />
+            <Field field="2012-01-01" selected="True" />
+            <Field field="2012-02-01" selected="True" />
+            <Field field="2012-03-01" selected="True" />
+            <Field field="2012-04-01" selected="True" />
+            <Field field="2012-05-01" selected="True" />
+            <Field field="2012-06-01" selected="True" />
+            <Field field="2012-07-01" selected="True" />
+            <Field field="2012-08-01" selected="True" />
+            <Field field="2012-09-01" selected="True" />
+            <Field field="2012-10-01" selected="True" />
+            <Field field="2012-11-01" selected="True" />
+            <Field field="2012-12-01" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="I-94 Arrivals based on Country of Residence (COR)" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="Name" size="10" source="Transpose:" type="String" />
+            <Field name="Value" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="510" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeFormat(todate([Name]),&quot;%Y%m&quot;)" field="month_key" size="64" type="WString" />
+            <FormulaField expression="&quot;USA&quot;" field="location" size="10" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[month_key = DateTimeFormat(todate([Name]),"%Y%m")
+location = "USA"
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="I-94 Arrivals based on Country of Residence (COR)" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="Name" size="10" source="Transpose:" type="String" />
+            <Field name="Value" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="month_key" size="64" source="Formula: DateTimeFormat(todate([Name]),&quot;%Y%m&quot;)" type="WString" />
+            <Field name="location" size="10" source="Formula: &quot;USA&quot;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="606" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="month_key" selected="True" />
+            <SelectField field="Name" selected="False" />
+            <SelectField field="I-94 Arrivals based on Country of Residence (COR)" selected="True" rename="market" />
+            <SelectField field="Value" selected="True" rename="number_visits" />
+            <SelectField field="location" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="month_key" size="64" source="Formula: DateTimeFormat(todate([Name]),&quot;%Y%m&quot;)" type="WString" />
+            <Field name="market" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="number_visits" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="location" size="10" source="Formula: &quot;USA&quot;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="690" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Output31</Name>
+          <Abbrev />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Output</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="342" y="54" width="100" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>macro for 2011-2019</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection name="#1">
+      <Origin ToolID="20" Connection="Question" />
+      <Destination ToolID="21" Connection="Question" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="21" Connection="Action" />
+      <Destination ToolID="22" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="25" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>ControlParam.Control Parameter (20)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Output (31)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>prep-USA-macros</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="False" />
+    </Events>
+    <RuntimeProperties>
+      <Actions>
+        <NoCondition>
+          <Type>NoCondition</Type>
+          <Description>(Always Run)</Description>
+          <True>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="21" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="True" />
+              <ReplaceText>2012 COR Month-QTR Volume</ReplaceText>
+              <Destination>22/File</Destination>
+            </Action>
+          </True>
+        </NoCondition>
+      </Actions>
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (19)</Name>
+          <ToolId value="19" />
+          <Questions>
+            <Question>
+              <Type>ControlParam</Type>
+              <Description>Control Parameter (20)</Description>
+              <Name>Control Parameter (20)</Name>
+              <ToolId value="20" />
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (31)</Description>
+              <Name>Macro Output (31)</Name>
+              <ToolId value="31" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImageStd value="39" />
+      <MacroInputs />
+      <MacroOutputs />
+      <BatchMacro>
+        <OutputMode>AllSame</OutputMode>
+        <ControlParams>
+          <ControlParam>
+            <Name>Control Parameter (20)</Name>
+            <Description>Control Parameter (20)</Description>
+          </ControlParam>
+        </ControlParams>
+      </BatchMacro>
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="26" Selected="True" />
+        <Tool ToolId="31" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>

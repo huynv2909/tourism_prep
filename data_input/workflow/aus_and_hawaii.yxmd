@@ -1,0 +1,1183 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.1">
+  <Nodes>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="474" y="318" width="119.2198" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Hawaii</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="1">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="498" y="366" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv</File>
+              <FormatSpecificOptions>
+                <CodePage>28591</CodePage>
+                <Delimeter>,</Delimeter>
+                <IgnoreErrors>False</IgnoreErrors>
+                <FieldLen>254</FieldLen>
+                <AllowShareWrite>False</AllowShareWrite>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Hawaii Tourism Data (from DBEDT Data Warehouse).csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Indicator" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="Market" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="Destination" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="Units" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1989-01" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1989-02" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1989-03" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1989-04" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1989-05" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1989-06" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1989-07" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1989-08" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1989-09" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1989-10" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1989-11" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1989-12" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1990-01" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1990-02" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1990-03" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1990-04" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1990-05" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1990-06" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1990-07" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1990-08" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1990-09" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1990-10" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1990-11" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1990-12" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1991-01" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1991-02" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1991-03" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1991-04" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1991-05" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1991-06" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1991-07" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1991-08" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1991-09" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1991-10" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1991-11" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1991-12" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1992-01" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1992-02" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1992-03" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1992-04" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1992-05" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1992-06" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1992-07" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1992-08" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1992-09" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1992-10" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1992-11" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1992-12" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1993-01" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1993-02" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1993-03" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1993-04" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1993-05" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1993-06" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1993-07" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1993-08" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1993-09" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1993-10" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1993-11" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1993-12" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1994-01" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1994-02" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1994-03" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1994-04" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1994-05" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1994-06" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1994-07" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1994-08" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1994-09" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1994-10" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1994-11" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1994-12" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1995-01" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1995-02" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1995-03" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1995-04" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1995-05" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1995-06" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1995-07" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1995-08" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1995-09" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1995-10" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1995-11" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1995-12" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1996-01" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1996-02" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1996-03" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1996-04" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1996-05" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1996-06" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1996-07" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1996-08" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1996-09" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1996-10" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1996-11" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1996-12" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1997-01" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1997-02" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1997-03" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1997-04" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1997-05" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1997-06" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1997-07" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1997-08" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1997-09" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1997-10" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1997-11" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1997-12" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1998-01" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1998-02" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1998-03" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1998-04" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1998-05" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1998-06" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1998-07" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1998-08" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1998-09" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1998-10" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1998-11" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1998-12" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1999-01" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1999-02" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1999-03" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1999-04" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1999-05" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1999-06" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1999-07" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1999-08" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1999-09" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1999-10" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1999-11" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="1999-12" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2000-01" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2000-02" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2000-03" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2000-04" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2000-05" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2000-06" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2000-07" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2000-08" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2000-09" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2000-10" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2000-11" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2000-12" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2001-01" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2001-02" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2001-03" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2001-04" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2001-05" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2001-06" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2001-07" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2001-08" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2001-09" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2001-10" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2001-11" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2001-12" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2002-01" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2002-02" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2002-03" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2002-04" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2002-05" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2002-06" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2002-07" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2002-08" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2002-09" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2002-10" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2002-11" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2002-12" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2003-01" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2003-02" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2003-03" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2003-04" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2003-05" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2003-06" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2003-07" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2003-08" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2003-09" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2003-10" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2003-11" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2003-12" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2004-01" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2004-02" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2004-03" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2004-04" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2004-05" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2004-06" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2004-07" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2004-08" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2004-09" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2004-10" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2004-11" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2004-12" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2005-01" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2005-02" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2005-03" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2005-04" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2005-05" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2005-06" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2005-07" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2005-08" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2005-09" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2005-10" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2005-11" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2005-12" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2006-01" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2006-02" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2006-03" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2006-04" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2006-05" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2006-06" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2006-07" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2006-08" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2006-09" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2006-10" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2006-11" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2006-12" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2007-01" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2007-02" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2007-03" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2007-04" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2007-05" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2007-06" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2007-07" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2007-08" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2007-09" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2007-10" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2007-11" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2007-12" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2008-01" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2008-02" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2008-03" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2008-04" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2008-05" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2008-06" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2008-07" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2008-08" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2008-09" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2008-10" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2008-11" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2008-12" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2009-01" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2009-02" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2009-03" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2009-04" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2009-05" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2009-06" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2009-07" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2009-08" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2009-09" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2009-10" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2009-11" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2009-12" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2010-01" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2010-02" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2010-03" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2010-04" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2010-05" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2010-06" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2010-07" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2010-08" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2010-09" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2010-10" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2010-11" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2010-12" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2011-01" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2011-02" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2011-03" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2011-04" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2011-05" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2011-06" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2011-07" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2011-08" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2011-09" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2011-10" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2011-11" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2011-12" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2012-01" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2012-02" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2012-03" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2012-04" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2012-05" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2012-06" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2012-07" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2012-08" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2012-09" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2012-10" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2012-11" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2012-12" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2013-01" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2013-02" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2013-03" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2013-04" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2013-05" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2013-06" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2013-07" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2013-08" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2013-09" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2013-10" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2013-11" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2013-12" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2014-01" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2014-02" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2014-03" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2014-04" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2014-05" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2014-06" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2014-07" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2014-08" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2014-09" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2014-10" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2014-11" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2014-12" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2015-01" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2015-02" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2015-03" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2015-04" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2015-05" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2015-06" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2015-07" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2015-08" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2015-09" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2015-10" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2015-11" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2015-12" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2016-01" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2016-02" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2016-03" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2016-04" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2016-05" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2016-06" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2016-07" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2016-08" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2016-09" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2016-10" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2016-11" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2016-12" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2017-01" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2017-02" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2017-03" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2017-04" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2017-05" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2017-06" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2017-07" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2017-08" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2017-09" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2017-10" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2017-11" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2017-12" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2018-01" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2018-02" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2018-03" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2018-04" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2018-05" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2018-06" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2018-07" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2018-08" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2018-09" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2018-10" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2018-11" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2018-12" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2019-01" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2019-02" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2019-03" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2019-04" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2019-05" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2019-06" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2019-07" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2019-08" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2019-09" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2019-10" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2019-11" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2019-12" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2020-01" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2020-02" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2020-03" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+                <Field name="2020-04" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\Hawaii Tourism Data (from DBEDT Data Warehouse).csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1218" y="366" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>
+              </TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+            <Position x="690" y="366" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ErrorWarn>Warn</ErrorWarn>
+              <KeyFields>
+                <Field field="Market" />
+                <Field field="Destination" />
+              </KeyFields>
+              <DataFields>
+                <Field field="Indicator" selected="False" />
+                <Field field="Market" selected="False" />
+                <Field field="Destination" selected="False" />
+                <Field field="Units" selected="False" />
+                <Field field="1989-01" selected="True" />
+                <Field field="1989-02" selected="True" />
+                <Field field="1989-03" selected="True" />
+                <Field field="1989-04" selected="True" />
+                <Field field="1989-05" selected="True" />
+                <Field field="1989-06" selected="True" />
+                <Field field="1989-07" selected="True" />
+                <Field field="1989-08" selected="True" />
+                <Field field="1989-09" selected="True" />
+                <Field field="1989-10" selected="True" />
+                <Field field="1989-11" selected="True" />
+                <Field field="1989-12" selected="True" />
+                <Field field="1990-01" selected="True" />
+                <Field field="1990-02" selected="True" />
+                <Field field="1990-03" selected="True" />
+                <Field field="1990-04" selected="True" />
+                <Field field="1990-05" selected="True" />
+                <Field field="1990-06" selected="True" />
+                <Field field="1990-07" selected="True" />
+                <Field field="1990-08" selected="True" />
+                <Field field="1990-09" selected="True" />
+                <Field field="1990-10" selected="True" />
+                <Field field="1990-11" selected="True" />
+                <Field field="1990-12" selected="True" />
+                <Field field="1991-01" selected="True" />
+                <Field field="1991-02" selected="True" />
+                <Field field="1991-03" selected="True" />
+                <Field field="1991-04" selected="True" />
+                <Field field="1991-05" selected="True" />
+                <Field field="1991-06" selected="True" />
+                <Field field="1991-07" selected="True" />
+                <Field field="1991-08" selected="True" />
+                <Field field="1991-09" selected="True" />
+                <Field field="1991-10" selected="True" />
+                <Field field="1991-11" selected="True" />
+                <Field field="1991-12" selected="True" />
+                <Field field="1992-01" selected="True" />
+                <Field field="1992-02" selected="True" />
+                <Field field="1992-03" selected="True" />
+                <Field field="1992-04" selected="True" />
+                <Field field="1992-05" selected="True" />
+                <Field field="1992-06" selected="True" />
+                <Field field="1992-07" selected="True" />
+                <Field field="1992-08" selected="True" />
+                <Field field="1992-09" selected="True" />
+                <Field field="1992-10" selected="True" />
+                <Field field="1992-11" selected="True" />
+                <Field field="1992-12" selected="True" />
+                <Field field="1993-01" selected="True" />
+                <Field field="1993-02" selected="True" />
+                <Field field="1993-03" selected="True" />
+                <Field field="1993-04" selected="True" />
+                <Field field="1993-05" selected="True" />
+                <Field field="1993-06" selected="True" />
+                <Field field="1993-07" selected="True" />
+                <Field field="1993-08" selected="True" />
+                <Field field="1993-09" selected="True" />
+                <Field field="1993-10" selected="True" />
+                <Field field="1993-11" selected="True" />
+                <Field field="1993-12" selected="True" />
+                <Field field="1994-01" selected="True" />
+                <Field field="1994-02" selected="True" />
+                <Field field="1994-03" selected="True" />
+                <Field field="1994-04" selected="True" />
+                <Field field="1994-05" selected="True" />
+                <Field field="1994-06" selected="True" />
+                <Field field="1994-07" selected="True" />
+                <Field field="1994-08" selected="True" />
+                <Field field="1994-09" selected="True" />
+                <Field field="1994-10" selected="True" />
+                <Field field="1994-11" selected="True" />
+                <Field field="1994-12" selected="True" />
+                <Field field="1995-01" selected="True" />
+                <Field field="1995-02" selected="True" />
+                <Field field="1995-03" selected="True" />
+                <Field field="1995-04" selected="True" />
+                <Field field="1995-05" selected="True" />
+                <Field field="1995-06" selected="True" />
+                <Field field="1995-07" selected="True" />
+                <Field field="1995-08" selected="True" />
+                <Field field="1995-09" selected="True" />
+                <Field field="1995-10" selected="True" />
+                <Field field="1995-11" selected="True" />
+                <Field field="1995-12" selected="True" />
+                <Field field="1996-01" selected="True" />
+                <Field field="1996-02" selected="True" />
+                <Field field="1996-03" selected="True" />
+                <Field field="1996-04" selected="True" />
+                <Field field="1996-05" selected="True" />
+                <Field field="1996-06" selected="True" />
+                <Field field="1996-07" selected="True" />
+                <Field field="1996-08" selected="True" />
+                <Field field="1996-09" selected="True" />
+                <Field field="1996-10" selected="True" />
+                <Field field="1996-11" selected="True" />
+                <Field field="1996-12" selected="True" />
+                <Field field="1997-01" selected="True" />
+                <Field field="1997-02" selected="True" />
+                <Field field="1997-03" selected="True" />
+                <Field field="1997-04" selected="True" />
+                <Field field="1997-05" selected="True" />
+                <Field field="1997-06" selected="True" />
+                <Field field="1997-07" selected="True" />
+                <Field field="1997-08" selected="True" />
+                <Field field="1997-09" selected="True" />
+                <Field field="1997-10" selected="True" />
+                <Field field="1997-11" selected="True" />
+                <Field field="1997-12" selected="True" />
+                <Field field="1998-01" selected="True" />
+                <Field field="1998-02" selected="True" />
+                <Field field="1998-03" selected="True" />
+                <Field field="1998-04" selected="True" />
+                <Field field="1998-05" selected="True" />
+                <Field field="1998-06" selected="True" />
+                <Field field="1998-07" selected="True" />
+                <Field field="1998-08" selected="True" />
+                <Field field="1998-09" selected="True" />
+                <Field field="1998-10" selected="True" />
+                <Field field="1998-11" selected="True" />
+                <Field field="1998-12" selected="True" />
+                <Field field="1999-01" selected="True" />
+                <Field field="1999-02" selected="True" />
+                <Field field="1999-03" selected="True" />
+                <Field field="1999-04" selected="True" />
+                <Field field="1999-05" selected="True" />
+                <Field field="1999-06" selected="True" />
+                <Field field="1999-07" selected="True" />
+                <Field field="1999-08" selected="True" />
+                <Field field="1999-09" selected="True" />
+                <Field field="1999-10" selected="True" />
+                <Field field="1999-11" selected="True" />
+                <Field field="1999-12" selected="True" />
+                <Field field="2000-01" selected="True" />
+                <Field field="2000-02" selected="True" />
+                <Field field="2000-03" selected="True" />
+                <Field field="2000-04" selected="True" />
+                <Field field="2000-05" selected="True" />
+                <Field field="2000-06" selected="True" />
+                <Field field="2000-07" selected="True" />
+                <Field field="2000-08" selected="True" />
+                <Field field="2000-09" selected="True" />
+                <Field field="2000-10" selected="True" />
+                <Field field="2000-11" selected="True" />
+                <Field field="2000-12" selected="True" />
+                <Field field="2001-01" selected="True" />
+                <Field field="2001-02" selected="True" />
+                <Field field="2001-03" selected="True" />
+                <Field field="2001-04" selected="True" />
+                <Field field="2001-05" selected="True" />
+                <Field field="2001-06" selected="True" />
+                <Field field="2001-07" selected="True" />
+                <Field field="2001-08" selected="True" />
+                <Field field="2001-09" selected="True" />
+                <Field field="2001-10" selected="True" />
+                <Field field="2001-11" selected="True" />
+                <Field field="2001-12" selected="True" />
+                <Field field="2002-01" selected="True" />
+                <Field field="2002-02" selected="True" />
+                <Field field="2002-03" selected="True" />
+                <Field field="2002-04" selected="True" />
+                <Field field="2002-05" selected="True" />
+                <Field field="2002-06" selected="True" />
+                <Field field="2002-07" selected="True" />
+                <Field field="2002-08" selected="True" />
+                <Field field="2002-09" selected="True" />
+                <Field field="2002-10" selected="True" />
+                <Field field="2002-11" selected="True" />
+                <Field field="2002-12" selected="True" />
+                <Field field="2003-01" selected="True" />
+                <Field field="2003-02" selected="True" />
+                <Field field="2003-03" selected="True" />
+                <Field field="2003-04" selected="True" />
+                <Field field="2003-05" selected="True" />
+                <Field field="2003-06" selected="True" />
+                <Field field="2003-07" selected="True" />
+                <Field field="2003-08" selected="True" />
+                <Field field="2003-09" selected="True" />
+                <Field field="2003-10" selected="True" />
+                <Field field="2003-11" selected="True" />
+                <Field field="2003-12" selected="True" />
+                <Field field="2004-01" selected="True" />
+                <Field field="2004-02" selected="True" />
+                <Field field="2004-03" selected="True" />
+                <Field field="2004-04" selected="True" />
+                <Field field="2004-05" selected="True" />
+                <Field field="2004-06" selected="True" />
+                <Field field="2004-07" selected="True" />
+                <Field field="2004-08" selected="True" />
+                <Field field="2004-09" selected="True" />
+                <Field field="2004-10" selected="True" />
+                <Field field="2004-11" selected="True" />
+                <Field field="2004-12" selected="True" />
+                <Field field="2005-01" selected="True" />
+                <Field field="2005-02" selected="True" />
+                <Field field="2005-03" selected="True" />
+                <Field field="2005-04" selected="True" />
+                <Field field="2005-05" selected="True" />
+                <Field field="2005-06" selected="True" />
+                <Field field="2005-07" selected="True" />
+                <Field field="2005-08" selected="True" />
+                <Field field="2005-09" selected="True" />
+                <Field field="2005-10" selected="True" />
+                <Field field="2005-11" selected="True" />
+                <Field field="2005-12" selected="True" />
+                <Field field="2006-01" selected="True" />
+                <Field field="2006-02" selected="True" />
+                <Field field="2006-03" selected="True" />
+                <Field field="2006-04" selected="True" />
+                <Field field="2006-05" selected="True" />
+                <Field field="2006-06" selected="True" />
+                <Field field="2006-07" selected="True" />
+                <Field field="2006-08" selected="True" />
+                <Field field="2006-09" selected="True" />
+                <Field field="2006-10" selected="True" />
+                <Field field="2006-11" selected="True" />
+                <Field field="2006-12" selected="True" />
+                <Field field="2007-01" selected="True" />
+                <Field field="2007-02" selected="True" />
+                <Field field="2007-03" selected="True" />
+                <Field field="2007-04" selected="True" />
+                <Field field="2007-05" selected="True" />
+                <Field field="2007-06" selected="True" />
+                <Field field="2007-07" selected="True" />
+                <Field field="2007-08" selected="True" />
+                <Field field="2007-09" selected="True" />
+                <Field field="2007-10" selected="True" />
+                <Field field="2007-11" selected="True" />
+                <Field field="2007-12" selected="True" />
+                <Field field="2008-01" selected="True" />
+                <Field field="2008-02" selected="True" />
+                <Field field="2008-03" selected="True" />
+                <Field field="2008-04" selected="True" />
+                <Field field="2008-05" selected="True" />
+                <Field field="2008-06" selected="True" />
+                <Field field="2008-07" selected="True" />
+                <Field field="2008-08" selected="True" />
+                <Field field="2008-09" selected="True" />
+                <Field field="2008-10" selected="True" />
+                <Field field="2008-11" selected="True" />
+                <Field field="2008-12" selected="True" />
+                <Field field="2009-01" selected="True" />
+                <Field field="2009-02" selected="True" />
+                <Field field="2009-03" selected="True" />
+                <Field field="2009-04" selected="True" />
+                <Field field="2009-05" selected="True" />
+                <Field field="2009-06" selected="True" />
+                <Field field="2009-07" selected="True" />
+                <Field field="2009-08" selected="True" />
+                <Field field="2009-09" selected="True" />
+                <Field field="2009-10" selected="True" />
+                <Field field="2009-11" selected="True" />
+                <Field field="2009-12" selected="True" />
+                <Field field="2010-01" selected="True" />
+                <Field field="2010-02" selected="True" />
+                <Field field="2010-03" selected="True" />
+                <Field field="2010-04" selected="True" />
+                <Field field="2010-05" selected="True" />
+                <Field field="2010-06" selected="True" />
+                <Field field="2010-07" selected="True" />
+                <Field field="2010-08" selected="True" />
+                <Field field="2010-09" selected="True" />
+                <Field field="2010-10" selected="True" />
+                <Field field="2010-11" selected="True" />
+                <Field field="2010-12" selected="True" />
+                <Field field="2011-01" selected="True" />
+                <Field field="2011-02" selected="True" />
+                <Field field="2011-03" selected="True" />
+                <Field field="2011-04" selected="True" />
+                <Field field="2011-05" selected="True" />
+                <Field field="2011-06" selected="True" />
+                <Field field="2011-07" selected="True" />
+                <Field field="2011-08" selected="True" />
+                <Field field="2011-09" selected="True" />
+                <Field field="2011-10" selected="True" />
+                <Field field="2011-11" selected="True" />
+                <Field field="2011-12" selected="True" />
+                <Field field="2012-01" selected="True" />
+                <Field field="2012-02" selected="True" />
+                <Field field="2012-03" selected="True" />
+                <Field field="2012-04" selected="True" />
+                <Field field="2012-05" selected="True" />
+                <Field field="2012-06" selected="True" />
+                <Field field="2012-07" selected="True" />
+                <Field field="2012-08" selected="True" />
+                <Field field="2012-09" selected="True" />
+                <Field field="2012-10" selected="True" />
+                <Field field="2012-11" selected="True" />
+                <Field field="2012-12" selected="True" />
+                <Field field="2013-01" selected="True" />
+                <Field field="2013-02" selected="True" />
+                <Field field="2013-03" selected="True" />
+                <Field field="2013-04" selected="True" />
+                <Field field="2013-05" selected="True" />
+                <Field field="2013-06" selected="True" />
+                <Field field="2013-07" selected="True" />
+                <Field field="2013-08" selected="True" />
+                <Field field="2013-09" selected="True" />
+                <Field field="2013-10" selected="True" />
+                <Field field="2013-11" selected="True" />
+                <Field field="2013-12" selected="True" />
+                <Field field="2014-01" selected="True" />
+                <Field field="2014-02" selected="True" />
+                <Field field="2014-03" selected="True" />
+                <Field field="2014-04" selected="True" />
+                <Field field="2014-05" selected="True" />
+                <Field field="2014-06" selected="True" />
+                <Field field="2014-07" selected="True" />
+                <Field field="2014-08" selected="True" />
+                <Field field="2014-09" selected="True" />
+                <Field field="2014-10" selected="True" />
+                <Field field="2014-11" selected="True" />
+                <Field field="2014-12" selected="True" />
+                <Field field="2015-01" selected="True" />
+                <Field field="2015-02" selected="True" />
+                <Field field="2015-03" selected="True" />
+                <Field field="2015-04" selected="True" />
+                <Field field="2015-05" selected="True" />
+                <Field field="2015-06" selected="True" />
+                <Field field="2015-07" selected="True" />
+                <Field field="2015-08" selected="True" />
+                <Field field="2015-09" selected="True" />
+                <Field field="2015-10" selected="True" />
+                <Field field="2015-11" selected="True" />
+                <Field field="2015-12" selected="True" />
+                <Field field="2016-01" selected="True" />
+                <Field field="2016-02" selected="True" />
+                <Field field="2016-03" selected="True" />
+                <Field field="2016-04" selected="True" />
+                <Field field="2016-05" selected="True" />
+                <Field field="2016-06" selected="True" />
+                <Field field="2016-07" selected="True" />
+                <Field field="2016-08" selected="True" />
+                <Field field="2016-09" selected="True" />
+                <Field field="2016-10" selected="True" />
+                <Field field="2016-11" selected="True" />
+                <Field field="2016-12" selected="True" />
+                <Field field="2017-01" selected="True" />
+                <Field field="2017-02" selected="True" />
+                <Field field="2017-03" selected="True" />
+                <Field field="2017-04" selected="True" />
+                <Field field="2017-05" selected="True" />
+                <Field field="2017-06" selected="True" />
+                <Field field="2017-07" selected="True" />
+                <Field field="2017-08" selected="True" />
+                <Field field="2017-09" selected="True" />
+                <Field field="2017-10" selected="True" />
+                <Field field="2017-11" selected="True" />
+                <Field field="2017-12" selected="True" />
+                <Field field="2018-01" selected="True" />
+                <Field field="2018-02" selected="True" />
+                <Field field="2018-03" selected="True" />
+                <Field field="2018-04" selected="True" />
+                <Field field="2018-05" selected="True" />
+                <Field field="2018-06" selected="True" />
+                <Field field="2018-07" selected="True" />
+                <Field field="2018-08" selected="True" />
+                <Field field="2018-09" selected="True" />
+                <Field field="2018-10" selected="True" />
+                <Field field="2018-11" selected="True" />
+                <Field field="2018-12" selected="True" />
+                <Field field="2019-01" selected="True" />
+                <Field field="2019-02" selected="True" />
+                <Field field="2019-03" selected="True" />
+                <Field field="2019-04" selected="True" />
+                <Field field="2019-05" selected="True" />
+                <Field field="2019-06" selected="True" />
+                <Field field="2019-07" selected="True" />
+                <Field field="2019-08" selected="True" />
+                <Field field="2019-09" selected="True" />
+                <Field field="2019-10" selected="True" />
+                <Field field="2019-11" selected="True" />
+                <Field field="2019-12" selected="True" />
+                <Field field="2020-01" selected="True" />
+                <Field field="2020-02" selected="True" />
+                <Field field="2020-03" selected="True" />
+                <Field field="2020-04" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </DataFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+        </Node>
+        <Node ToolID="4">
+          <GuiSettings>
+            <Position x="594" y="366" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Ranges">-181</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="SelectRecords.yxmc" />
+        </Node>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="786" y="366" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="Replace([Name], &quot;-&quot;, &quot;&quot;)" field="Name" size="7" type="String" />
+                <FormulaField expression="Replace([Value], &quot;,&quot;, &quot;&quot;)" field="Value" size="254" type="V_String" />
+                <FormulaField expression="&quot;Hawaii&quot;" field="location" size="254" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Name = Replace([Name], "-", "")
+Value = Replace([Value], ",", "")
+location = "Ha...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="882" y="366" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Value" selected="True" type="Int64" size="8" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="1122" y="366" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Market" action="GroupBy" rename="market" />
+                <SummarizeField field="Name" action="GroupBy" rename="month_key" />
+                <SummarizeField field="Value" action="Sum" rename="number_visits" />
+                <SummarizeField field="location" action="GroupBy" rename="location" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="474" y="114" width="130.5587" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Australia</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="498" y="174" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\aus_input.csv</File>
+              <FormatSpecificOptions>
+                <CodePage>28591</CodePage>
+                <Delimeter>,</Delimeter>
+                <IgnoreErrors>False</IgnoreErrors>
+                <FieldLen>254</FieldLen>
+                <AllowShareWrite>False</AllowShareWrite>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aus_input.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="CAT_TRAVELLER" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\aus_input.csv" type="V_WString" />
+                <Field name="Category of traveller" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\aus_input.csv" type="V_WString" />
+                <Field name="COUNTRY" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\aus_input.csv" type="V_WString" />
+                <Field name="Country of stay/residence" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\aus_input.csv" type="V_WString" />
+                <Field name="TSEST" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\aus_input.csv" type="V_WString" />
+                <Field name="Adjustment type" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\aus_input.csv" type="V_WString" />
+                <Field name="FREQUENCY" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\aus_input.csv" type="V_WString" />
+                <Field name="Frequency2" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\aus_input.csv" type="V_WString" />
+                <Field name="TIME" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\aus_input.csv" type="V_WString" />
+                <Field name="Time2" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\aus_input.csv" type="V_WString" />
+                <Field name="Value" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\aus_input.csv" type="V_WString" />
+                <Field name="Flag Codes" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\aus_input.csv" type="V_WString" />
+                <Field name="Flags" size="254" source="File: C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\aus_input.csv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="894" y="162" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>
+              </TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="594" y="174" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[Category of traveller] != "Short-term (less than one year) Residents returning" AND [Adjustment type] = "Original"</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Category of traveller] != "Short-term (less than one year) Residents returning"...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="798" y="162" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Country of stay/residence" selected="True" rename="market" />
+                <SelectField field="TIME" selected="True" rename="month_key" />
+                <SelectField field="Value" selected="True" rename="number_visits" />
+                <SelectField field="location" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="702" y="162" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="Replace([TIME], &quot;-&quot;, &quot;&quot;)" field="TIME" size="254" type="V_WString" />
+                <FormulaField expression="&quot;Australia&quot;" field="location" size="254" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[TIME = Replace([TIME], "-", "")
+location = "Australia"
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="True" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>aus_and_hawaii</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

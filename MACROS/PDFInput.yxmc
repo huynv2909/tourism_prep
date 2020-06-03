@@ -1,0 +1,331 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2019.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Directory.Directory">
+        <Position x="66" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Directory>../guam</Directory>
+          <FileSpec>*.pdf</FileSpec>
+          <IncludeSubDirs value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dir ../guam\*.pdf</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDirectory" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.FolderBrowse.FolderBrowse">
+        <Position x="54" y="54" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="54" y="168" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.TextBox.QuestionTextBox">
+        <Position x="234" y="54" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="222" y="174" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="438" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Output23</Name>
+          <Abbrev />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Message.Message">
+        <Position x="162" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <When>All</When>
+          <Filter />
+          <Type>Message</Type>
+          <Priority>High</Priority>
+          <Transient>False</Transient>
+          <MessageExpression>tostring([_RecordNumber_])+" pdfs met criteria and are being processed for input"</MessageExpression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FullPath" size="32767" source="Directory:" type="V_WString" />
+            <Field name="Directory" size="32767" source="Directory:" type="V_WString" />
+            <Field name="FileName" size="260" source="Directory:" type="V_WString" />
+            <Field name="ShortFileName" size="14" source="Directory:" type="V_WString" />
+            <Field name="CreationTime" source="Directory:" type="DateTime" />
+            <Field name="LastAccessTime" source="Directory:" type="DateTime" />
+            <Field name="LastWriteTime" source="Directory:" type="DateTime" />
+            <Field name="Size" source="Directory:" type="Int64" />
+            <Field name="AttributeArchive" source="Directory:" type="Bool" />
+            <Field name="AttributeCompressed" source="Directory:" type="Bool" />
+            <Field name="AttributeEncrypted" source="Directory:" type="Bool" />
+            <Field name="AttributeHidden" source="Directory:" type="Bool" />
+            <Field name="AttributeNormal" source="Directory:" type="Bool" />
+            <Field name="AttributeOffline" source="Directory:" type="Bool" />
+            <Field name="AttributeReadonly" source="Directory:" type="Bool" />
+            <Field name="AttributeReparsePoint" source="Directory:" type="Bool" />
+            <Field name="AttributeSparseFile" source="Directory:" type="Bool" />
+            <Field name="AttributeSystem" source="Directory:" type="Bool" />
+            <Field name="AttributeTemporary" source="Directory:" type="Bool" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMessage" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings>
+        <Position x="294" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="ControlParams"><![CDATA[Control Parameter (4)=FullPath
+]]></Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output7">
+          <RecordInfo>
+            <Field description="TextToColumns: Parsed from Data" name="Data" size="1073741823" source="TextToColumns: Parsed from Data (BatchMacro) (BatchMacro)" type="V_WString" />
+            <Field name="File" size="1073741823" source="Formula: &quot;D:\2019.09_DFCS124\3.3 Iteration 3_S16 Activities\huynv\sample_scrap_2\8-september-2019-arrival-summary.pdf&quot; (BatchMacro) (BatchMacro)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="BatchPDFInput.yxmc" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="3" Connection="Question" />
+      <Destination ToolID="4" Connection="Question" />
+    </Connection>
+    <Connection name="#2" Wireless="True">
+      <Origin ToolID="4" Connection="Action" />
+      <Destination ToolID="1" Connection="Action" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="22" Connection="Action" />
+      <Destination ToolID="1" Connection="Action" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="21" Connection="Question" />
+      <Destination ToolID="22" Connection="Question" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="28" Connection="Control" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output7" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Folder Browse (3)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Text Box (21)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="False" />
+      <Name>PDF Input</Name>
+      <Description>The PDF Input tool is designed to allow users to input the content of PDFs into Alteryx for further analysis.</Description>
+      <RootToolName />
+      <ToolVersion>1</ToolVersion>
+      <ToolInDb value="False" />
+      <CategoryName>In/Out</CategoryName>
+      <SearchTags>PDF, Input, PDF Input, Parse</SearchTags>
+      <Author>Oliver Clarke</Author>
+      <Company>The Information Lab</Company>
+      <Copyright>2018</Copyright>
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions>
+        <NoCondition>
+          <Type>NoCondition</Type>
+          <Description>(Always Run)</Description>
+          <True>
+            <Action>
+              <Type>Dynamic</Type>
+              <Description />
+              <ToolId value="4" />
+              <Expression>{{INPUT}}</Expression>
+              <Destination>1/Directory</Destination>
+              <Mapping>Update Directory with Folder Browse</Mapping>
+              <Mode>Expression</Mode>
+              <DynamicConfiguration />
+              <DefaultConfiguration value="True" />
+            </Action>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="22" />
+              <Expression>trimright([#1],".pdf")+".pdf"</Expression>
+              <Destination>1/FileSpec</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+          </True>
+        </NoCondition>
+      </Actions>
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (2)</Name>
+          <ToolId value="2" />
+          <Questions>
+            <Question>
+              <Type>FolderBrowse</Type>
+              <Description>Select Input Directory</Description>
+              <Name>Folder Browse (3)</Name>
+              <ToolId value="3" />
+            </Question>
+            <Question>
+              <Type>TextBox</Type>
+              <Description>File Specification (name only, can include wildcards)</Description>
+              <Name>Text Box (21)</Name>
+              <ToolId value="21" />
+              <Default>*</Default>
+              <Password value="False" />
+              <Multiline value="False" />
+              <Hidden value="False" />
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (23)</Description>
+              <Name>Macro Output (23)</Name>
+              <ToolId value="23" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImage>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</MacroImage>
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="23" Selected="True" />
+        <Tool ToolId="28" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>

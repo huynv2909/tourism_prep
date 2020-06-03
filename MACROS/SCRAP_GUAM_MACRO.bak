@@ -1,0 +1,838 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2019.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+        <Position x="78" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UseFileInput value="False" />
+          <Name>Input</Name>
+          <Abbrev>I</Abbrev>
+          <ShowFieldMap value="False" />
+          <Optional value="False" />
+          <TextInput>
+            <Configuration>
+              <NumRows value="66" />
+              <Fields>
+                <Field name="Data" />
+                <Field name="File" />
+                <Field name="filter" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>Visitor Arrival Summary</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>April 2018</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>Apr-17 Apr-18 % from LY</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>a</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>Civilian Air Arrivals 121,356 116,917 -3.7%</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>Civilian Sea Arrivalsa 30 23 -23.3%</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>a</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>Armed Forces Air Arrivals 1,207 495 -59.0%</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>Armed Forces Sea Arrivalsa 14 243 1635.7%</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>TOTAL VISITOR ARRIVALS 122,607 117,678 -4.0%</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>ORIGIN OF AIR ARRIVALS (Civilian &amp; Armed Forces) Apr-17 Apr-18 % from LY</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>JAPAN 49,834 39,934 -19.9%</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>Kanto (Tokyo) 25,539 20,605 -19.3%</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>Chubu (Nagoya) 6,498 5,589 -14.0%</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>Kinki (Osaka) 8,720 7,313 -16.1%</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>Koshinetsu 1,197 689 -42.4%</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>Hokuriku 649 538 -17.1%</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>Tohoku 1,656 1,025 -38.1%</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>Kyushu 1,935 1,613 -16.6%</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>Chugoku 1,092 896 -17.9%</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>Hokkaido 1,352 863 -36.2%</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>Shikoku 555 427 -23.1%</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>Okinawa/Miya 464 226 -51.3%</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>Other 177 150 -15.3%</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>KOREA 53,520 60,265 12.6%</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>Seoul 19,204 18,160 -5.4%</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>Incheon/Gyeonggi 14,542 14,411 -0.9%</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>*Chungbuk 1,161 - -</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>Chungnam/Daejeon 2,051 1,441 -29.7%</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>*Gangwon 690 - -</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>Jeonbuk/Gwanju 961 849 -11.7%</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>Gyeonbuk/Daegu 2,273 2,257 -0.7%</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>*Busan - 6,104 -</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>*Jeonnam 1,260 - -</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>*Gyeongnam 9,101 - -</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>*Ulsan - 1,519 -</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>Other 2,277 15,524 581.8%</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>TAIWAN 3,208 2,241 -30.1%</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>Taipei 1,678 1,222 -27.2%</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>Kaohsiung 225 122 -45.8%</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>Taichung 650 368 -43.4%</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>Taoyuan, Miaoli, Hsinehu 435 211 -51.5%</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>*Hsinchu - 130 -</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>Other 220 188 -14.5%</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>CHINA 1,720 1,046 -39.2%</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>Beijing 264 123 -53.4%</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>Shanghai 483 353 -26.9%</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>Guangzhou 161 111 -31.1%</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>Other 812 459 -43.5%</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>*US/HAWAII 6,091 6,929 13.8%</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>CNMI 1,440 1,454 1.0%</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>PALAU 271 346 27.7%</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>FSM 903 1,442 59.7%</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>RMI 91 135 48.4%</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>PHILIPPINES 2,134 1,842 -13.7%</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>AUSTRALIA 215 161 -25.1%</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>*CANADA 98 - -</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>EUROPE 170 226 32.9%</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>HONG KONG 2,052 593 -71.1%</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>*THAILAND 49 - -</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>*VIETNAM 3 - -</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>RUSSIA 232 315 35.8%</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>*SINGAPORE - 97 -</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>*INDIA - 9 -</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>*MALAYSIA - 20 -</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>OTHER/UNKNOWN 532 357 -32.9%</c>
+                  <c>C:\Users\ABC\Documents\dfs_ai\Data Assets\Development\EXTRA_SCRAPPING\guam\april-2018-arrival-summary-20190314.pdf</c>
+                  <c>1</c>
+                </r>
+              </Data>
+            </Configuration>
+          </TextInput>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Data" size="72" source="TextInput:" type="V_String" />
+            <Field name="File" size="114" source="TextInput:" type="String" />
+            <Field name="filter" source="TextInput:" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings>
+        <Position x="210" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Ranges">2</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Data" size="72" source="TextInput:" type="V_String" />
+            <Field name="File" size="114" source="TextInput:" type="String" />
+            <Field name="filter" source="TextInput:" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="SelectRecords.yxmc" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="318" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeFormat(DateTimeParse([Data],'%B %Y'),'%Y%m')" field="month_key" size="6" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[month_key = DateTimeFormat(DateTimeParse([Data],'%B %Y'),'%Y%m')
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Data" size="72" source="TextInput:" type="V_String" />
+            <Field name="File" size="114" source="TextInput:" type="String" />
+            <Field name="filter" source="TextInput:" type="Byte" />
+            <Field name="month_key" size="6" source="Formula: DateTimeFormat(DateTimeParse([Data],'%B %Y'),'%Y%m')" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="210" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="True" />
+          <UpdateField_Name>filter</UpdateField_Name>
+          <CreateField_Name>New Field</CreateField_Name>
+          <CreateField_Type>Int32</CreateField_Type>
+          <CreateField_Size>4</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression>IF Contains([Data],'TOTAL VISITOR ARRIVALS') THEN 1
+ELSE [Row-1:filter]
+ENDIF</Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IF Contains([Data],'TOTAL VISITOR ARRIVALS') THEN 1
+ELSE [Row...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Data" size="72" source="TextInput:" type="V_String" />
+            <Field name="File" size="114" source="TextInput:" type="String" />
+            <Field description="Formula: IF Contains([Data],'TOTAL VISITOR ARRIVALS') THEN 1&#xA;ELSE [Row-1:filter]&#xA;ENDIF" name="filter" source="Formula: IF Contains([Data],'TOTAL VISITOR ARRIVALS') THEN 1&#xA;ELSE [Row-1:filter]&#xA;ENDIF" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="318" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[filter] = 1</Expression>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>filter</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2020-02-01 11:58:48</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>1</Operand>
+              <StartDate>2020-02-01 11:58:48</StartDate>
+              <EndDate>2020-02-01 11:58:48</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[filter] = 1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="Data" size="72" source="TextInput:" type="V_String" />
+            <Field name="File" size="114" source="TextInput:" type="String" />
+            <Field description="Formula: IF Contains([Data],'TOTAL VISITOR ARRIVALS') THEN 1&#xA;ELSE [Row-1:filter]&#xA;ENDIF" name="filter" source="Formula: IF Contains([Data],'TOTAL VISITOR ARRIVALS') THEN 1&#xA;ELSE [Row-1:filter]&#xA;ENDIF" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="Data" size="72" source="TextInput:" type="V_String" />
+            <Field name="File" size="114" source="TextInput:" type="String" />
+            <Field description="Formula: IF Contains([Data],'TOTAL VISITOR ARRIVALS') THEN 1&#xA;ELSE [Row-1:filter]&#xA;ENDIF" name="filter" source="Formula: IF Contains([Data],'TOTAL VISITOR ARRIVALS') THEN 1&#xA;ELSE [Row-1:filter]&#xA;ENDIF" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="414" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Data</Field>
+          <RegExExpression value="(.+)\s(.+|\-)\s(.+)\s(.+)" />
+          <CaseInsensitve value="True" />
+          <Method>ParseComplex</Method>
+          <Replace expression="">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>Data</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="RegExOut1" type="V_WString" size="1073741823" />
+            <Field field="RegExOut2" type="V_WString" size="1073741823" />
+            <Field field="RegExOut3" type="V_WString" size="1073741823" />
+            <Field field="RegExOut4" type="V_WString" size="1073741823" />
+          </ParseComplex>
+          <Match>
+            <Field>Data_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Data" size="72" source="TextInput:" type="V_String" />
+            <Field name="File" size="114" source="TextInput:" type="String" />
+            <Field description="Formula: IF Contains([Data],'TOTAL VISITOR ARRIVALS') THEN 1&#xA;ELSE [Row-1:filter]&#xA;ENDIF" name="filter" source="Formula: IF Contains([Data],'TOTAL VISITOR ARRIVALS') THEN 1&#xA;ELSE [Row-1:filter]&#xA;ENDIF" type="Byte" />
+            <Field description="RegEx: Parsed from Data" name="RegExOut1" size="1073741823" source="RegEx: Parsed from Data" type="V_WString" />
+            <Field description="RegEx: Parsed from Data" name="RegExOut2" size="1073741823" source="RegEx: Parsed from Data" type="V_WString" />
+            <Field description="RegEx: Parsed from Data" name="RegExOut3" size="1073741823" source="RegEx: Parsed from Data" type="V_WString" />
+            <Field description="RegEx: Parsed from Data" name="RegExOut4" size="1073741823" source="RegEx: Parsed from Data" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings>
+        <Position x="510" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="List Box (11)">"RegExOut1","RegExOut3"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">False</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">True</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">True</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output26">
+          <RecordInfo>
+            <Field name="Data" size="72" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="File" size="114" source="Formula: [_CurrentField_]" type="String" />
+            <Field description="Formula: IF Contains([Data],'TOTAL VISITOR ARRIVALS') THEN 1&#xA;ELSE [Row-1:filter]&#xA;ENDIF" name="filter" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field description="RegEx: Parsed from Data" name="RegExOut1" size="1073741823" source="Formula: [_CurrentField_]" type="V_WString" />
+            <Field description="RegEx: Parsed from Data" name="RegExOut2" size="1073741823" source="Formula: [_CurrentField_]" type="V_WString" />
+            <Field description="RegEx: Parsed from Data" name="RegExOut3" size="1073741823" source="Formula: [_CurrentField_]" type="V_WString" />
+            <Field description="RegEx: Parsed from Data" name="RegExOut4" size="1073741823" source="Formula: [_CurrentField_]" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="606" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>!IsEmpty([RegExOut3]) AND REGEX_Match([RegExOut3],"\d+") AND REGEX_Match(Uppercase([RegExOut1]),[RegExOut1],0)</Expression>
+          <Mode>Custom</Mode>
+          <Simple>
+            <Operator>IsNotEmpty</Operator>
+            <Field>RegExOut3</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2020-02-01 12:20:11</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2020-02-01 12:20:11</StartDate>
+              <EndDate>2020-02-01 12:20:11</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsEmpty([RegExOut3]) AND REGEX_Match([RegExOut3],"\d+") AND REGEX_Match(Upperca...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="Data" size="72" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="File" size="114" source="Formula: [_CurrentField_]" type="String" />
+            <Field description="Formula: IF Contains([Data],'TOTAL VISITOR ARRIVALS') THEN 1&#xA;ELSE [Row-1:filter]&#xA;ENDIF" name="filter" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field description="RegEx: Parsed from Data" name="RegExOut1" size="1073741823" source="Formula: [_CurrentField_]" type="V_WString" />
+            <Field description="RegEx: Parsed from Data" name="RegExOut2" size="1073741823" source="Formula: [_CurrentField_]" type="V_WString" />
+            <Field description="RegEx: Parsed from Data" name="RegExOut3" size="1073741823" source="Formula: [_CurrentField_]" type="V_WString" />
+            <Field description="RegEx: Parsed from Data" name="RegExOut4" size="1073741823" source="Formula: [_CurrentField_]" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="Data" size="72" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="File" size="114" source="Formula: [_CurrentField_]" type="String" />
+            <Field description="Formula: IF Contains([Data],'TOTAL VISITOR ARRIVALS') THEN 1&#xA;ELSE [Row-1:filter]&#xA;ENDIF" name="filter" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field description="RegEx: Parsed from Data" name="RegExOut1" size="1073741823" source="Formula: [_CurrentField_]" type="V_WString" />
+            <Field description="RegEx: Parsed from Data" name="RegExOut2" size="1073741823" source="Formula: [_CurrentField_]" type="V_WString" />
+            <Field description="RegEx: Parsed from Data" name="RegExOut3" size="1073741823" source="Formula: [_CurrentField_]" type="V_WString" />
+            <Field description="RegEx: Parsed from Data" name="RegExOut4" size="1073741823" source="Formula: [_CurrentField_]" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+        <Position x="738" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <CartesianMode>Error</CartesianMode>
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Target_RegExOut1" selected="True" rename="market" input="Target_" type="V_String" size="64" />
+                <SelectField field="Target_RegExOut3" selected="True" rename="number_visits" input="Target_" type="Int32" size="4" />
+                <SelectField field="Source_Data" selected="False" rename="Source_Data" input="Source_" />
+                <SelectField field="Source_File" selected="False" rename="Source_File" input="Source_" />
+                <SelectField field="Source_filter" selected="False" rename="Source_filter" input="Source_" />
+                <SelectField field="Source_month_key" selected="True" input="Source_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="RegEx: Parsed from Data" name="market" size="64" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field description="RegEx: Parsed from Data" name="number_visits" source="Formula: [_CurrentField_]" type="Int32" />
+            <Field name="month_key" size="6" source="Formula: DateTimeFormat(DateTimeParse([Data],'%B %Y'),'%Y%m')" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="834" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Output</Name>
+          <Abbrev>O</Abbrev>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="11" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="True" />
+      <Destination ToolID="11" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="True" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output26" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>SCRAP_GUAM_MACRO</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="False" />
+    </Events>
+    <RuntimeProperties>
+      <Actions />
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (2)</Name>
+          <ToolId value="2" />
+          <Questions>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description />
+              <Name>Macro Input (1)</Name>
+              <ToolId value="1" />
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (12)</Description>
+              <Name>Macro Output (12)</Name>
+              <ToolId value="12" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImageStd value="39" />
+      <MacroInputs />
+      <MacroOutputs />
+      <BatchMacro>
+        <OutputMode>AllSame</OutputMode>
+        <ControlParams />
+      </BatchMacro>
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="3" Selected="True" />
+        <Tool ToolId="12" Selected="True" />
+        <Tool ToolId="9" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>

@@ -1,0 +1,343 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="150" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;..\doctotext\doctotext.exe --pdf &quot; + [FullPath] + &quot; &gt; output.txt&quot;" field="command_line" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>command_line = "..\doctotext\doctotext.exe --pdf " + [FullPath] + " &gt; output.txt...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FullPath" size="88" source="TextInput:" type="String" />
+            <Field name="Directory" size="43" source="TextInput:" type="String" />
+            <Field name="FileName" size="45" source="TextInput:" type="String" />
+            <Field name="ShortFileName" size="12" source="TextInput:" type="String" />
+            <Field name="CreationTime" source="TextInput:" type="DateTime" />
+            <Field name="LastAccessTime" source="TextInput:" type="DateTime" />
+            <Field name="LastWriteTime" source="TextInput:" type="DateTime" />
+            <Field name="Size" source="TextInput:" type="Int32" />
+            <Field name="AttributeArchive" source="TextInput:" type="Bool" />
+            <Field name="AttributeCompressed" source="TextInput:" type="Bool" />
+            <Field name="AttributeEncrypted" source="TextInput:" type="Bool" />
+            <Field name="AttributeHidden" source="TextInput:" type="Bool" />
+            <Field name="AttributeNormal" source="TextInput:" type="Bool" />
+            <Field name="AttributeOffline" source="TextInput:" type="Bool" />
+            <Field name="AttributeReadonly" source="TextInput:" type="Bool" />
+            <Field name="AttributeReparsePoint" source="TextInput:" type="Bool" />
+            <Field name="AttributeSparseFile" source="TextInput:" type="Bool" />
+            <Field name="AttributeSystem" source="TextInput:" type="Bool" />
+            <Field name="AttributeTemporary" source="TextInput:" type="Bool" />
+            <Field name="command_line" size="1073741823" source="Formula: &quot;..\doctotext\doctotext.exe --pdf &quot; + [FullPath] + &quot; &gt; output.txt&quot;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="246" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="command_line" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="command_line" size="1073741823" source="Formula: &quot;..\doctotext\doctotext.exe --pdf &quot; + [FullPath] + &quot; &gt; output.txt&quot;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings>
+        <Position x="354" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="ControlParams"><![CDATA[Control Parameter (27)=command_line
+]]></Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="ReadPDFData.yxmc" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="438" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Output6</Name>
+          <Abbrev>O</Abbrev>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>O Output</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+        <Position x="42" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UseFileInput value="False" />
+          <Name>Input</Name>
+          <Abbrev>I</Abbrev>
+          <ShowFieldMap value="False" />
+          <Optional value="False" />
+          <TextInput>
+            <Configuration>
+              <NumRows value="2" />
+              <Fields>
+                <Field name="FullPath" />
+                <Field name="Directory" />
+                <Field name="FileName" />
+                <Field name="ShortFileName" />
+                <Field name="CreationTime" />
+                <Field name="LastAccessTime" />
+                <Field name="LastWriteTime" />
+                <Field name="Size" />
+                <Field name="AttributeArchive" />
+                <Field name="AttributeCompressed" />
+                <Field name="AttributeEncrypted" />
+                <Field name="AttributeHidden" />
+                <Field name="AttributeNormal" />
+                <Field name="AttributeOffline" />
+                <Field name="AttributeReadonly" />
+                <Field name="AttributeReparsePoint" />
+                <Field name="AttributeSparseFile" />
+                <Field name="AttributeSystem" />
+                <Field name="AttributeTemporary" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>D:\workshop_june_2020\data_input\guam\2019\december-2019-preliminary-arrival-summary.pdf</c>
+                  <c>D:\workshop_june_2020\data_input\guam\2019\</c>
+                  <c>december-2019-preliminary-arrival-summary.pdf</c>
+                  <c>DECEMB~1.PDF</c>
+                  <c>2020-06-03 14:52:14</c>
+                  <c>2020-06-03 14:52:14</c>
+                  <c>2020-06-01 17:16:59</c>
+                  <c>2623607</c>
+                  <c>True</c>
+                  <c>False</c>
+                  <c>False</c>
+                  <c>False</c>
+                  <c>False</c>
+                  <c>False</c>
+                  <c>False</c>
+                  <c>False</c>
+                  <c>False</c>
+                  <c>False</c>
+                  <c>False</c>
+                </r>
+                <r>
+                  <c>D:\workshop_june_2020\data_input\guam\2019\november-2019-preliminary-arrival-summary.pdf</c>
+                  <c>D:\workshop_june_2020\data_input\guam\2019\</c>
+                  <c>november-2019-preliminary-arrival-summary.pdf</c>
+                  <c>NOVEMB~1.PDF</c>
+                  <c>2020-06-03 14:52:16</c>
+                  <c>2020-06-03 14:52:16</c>
+                  <c>2020-06-01 17:17:00</c>
+                  <c>1580237</c>
+                  <c>True</c>
+                  <c>False</c>
+                  <c>False</c>
+                  <c>False</c>
+                  <c>False</c>
+                  <c>False</c>
+                  <c>False</c>
+                  <c>False</c>
+                  <c>False</c>
+                  <c>False</c>
+                  <c>False</c>
+                </r>
+              </Data>
+            </Configuration>
+          </TextInput>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>I Input</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FullPath" size="88" source="TextInput:" type="String" />
+            <Field name="Directory" size="43" source="TextInput:" type="String" />
+            <Field name="FileName" size="45" source="TextInput:" type="String" />
+            <Field name="ShortFileName" size="12" source="TextInput:" type="String" />
+            <Field name="CreationTime" source="TextInput:" type="DateTime" />
+            <Field name="LastAccessTime" source="TextInput:" type="DateTime" />
+            <Field name="LastWriteTime" source="TextInput:" type="DateTime" />
+            <Field name="Size" source="TextInput:" type="Int32" />
+            <Field name="AttributeArchive" source="TextInput:" type="Bool" />
+            <Field name="AttributeCompressed" source="TextInput:" type="Bool" />
+            <Field name="AttributeEncrypted" source="TextInput:" type="Bool" />
+            <Field name="AttributeHidden" source="TextInput:" type="Bool" />
+            <Field name="AttributeNormal" source="TextInput:" type="Bool" />
+            <Field name="AttributeOffline" source="TextInput:" type="Bool" />
+            <Field name="AttributeReadonly" source="TextInput:" type="Bool" />
+            <Field name="AttributeReparsePoint" source="TextInput:" type="Bool" />
+            <Field name="AttributeSparseFile" source="TextInput:" type="Bool" />
+            <Field name="AttributeSystem" source="TextInput:" type="Bool" />
+            <Field name="AttributeTemporary" source="TextInput:" type="Bool" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Control" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="1" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Output (6)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Input (7)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>ExtractPDF</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions />
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (4)</Name>
+          <ToolId value="4" />
+          <Questions>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (6)</Description>
+              <Name>Macro Output (6)</Name>
+              <ToolId value="6" />
+            </Question>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description />
+              <Name>Macro Input (7)</Name>
+              <ToolId value="7" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImageStd value="37" />
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="3" Selected="True" />
+        <Tool ToolId="6" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>
