@@ -47,7 +47,7 @@
       <Properties>
         <Configuration>
           <Passwords />
-          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">_externals\1\usa_input.xlsx|||`2012 COR Month-QTR Volume$`</File>
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">..\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`</File>
           <FormatSpecificOptions>
             <FirstRowData>True</FirstRowData>
             <ImportLine>2</ImportLine>
@@ -59,79 +59,82 @@
 Query=`2012 COR Month-QTR Volume$`</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="F1" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="F2" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="F3" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="F4" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="F5" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="F6" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="F7" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="F8" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="F9" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="F10" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="F11" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="F12" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="F13" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="F14" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="F15" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="F16" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="F17" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="F18" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="F19" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
-            <Field name="F20" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="F21" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="F22" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="F23" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="F24" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="F25" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="F26" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="F27" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="F28" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="F29" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="F30" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="F31" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="F32" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="F33" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="F34" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="F35" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="F36" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
-            <Field name="F37" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
-            <Field name="F38" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
-            <Field name="F39" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
-            <Field name="F40" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
-            <Field name="F41" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
-            <Field name="F42" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
-            <Field name="F43" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
-            <Field name="F44" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
-            <Field name="F45" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
-            <Field name="F46" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
-            <Field name="F47" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
-            <Field name="F48" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
-            <Field name="F49" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
-            <Field name="F50" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
-            <Field name="F51" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
-            <Field name="F52" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
-            <Field name="F53" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
-            <Field name="F54" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
-            <Field name="F55" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
-            <Field name="F56" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
-            <Field name="F57" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
-            <Field name="F58" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
-            <Field name="F59" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
-            <Field name="F60" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
-            <Field name="F61" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
-            <Field name="F62" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
-            <Field name="F63" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
-            <Field name="F64" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
-            <Field name="F65" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
-            <Field name="F66" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
-            <Field name="F67" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
-            <Field name="F68" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
-            <Field name="F69" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
-            <Field name="F70" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
-            <Field name="F71" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F1" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F2" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F3" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F4" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F5" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F6" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F7" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F8" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F9" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F10" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F11" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F12" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F13" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F14" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F15" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F16" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F17" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F18" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F19" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F20" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F21" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F22" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F23" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F24" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F25" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F26" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F27" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F28" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F29" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F30" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F31" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F32" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F33" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F34" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F35" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F36" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F37" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F38" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F39" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F40" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F41" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F42" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F43" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F44" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F45" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F46" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F47" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F48" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F49" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F50" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F51" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F52" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F53" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F54" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F55" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F56" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F57" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F58" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F59" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F60" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F61" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F62" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F63" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F64" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F65" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F66" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F67" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F68" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F69" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F70" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
+            <Field name="F71" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="Double" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -169,19 +172,19 @@ Query=`2012 COR Month-QTR Volume$`</DefaultAnnotationText>
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="F2" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="F3" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="F4" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="F5" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="F7" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="F8" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="F9" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="F11" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="F12" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="F13" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="F15" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="F16" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="F17" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F2" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F3" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F4" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F5" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F7" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F8" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F9" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F11" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F12" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F13" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F15" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F16" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="F17" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -518,7 +521,7 @@ location = "USA"
               <Mode>Simple</Mode>
               <Variable />
               <Replace value="True" />
-              <ReplaceText>2019 COR Month-QTR Volume</ReplaceText>
+              <ReplaceText>2012 COR Month-QTR Volume</ReplaceText>
               <Destination>22/File</Destination>
             </Action>
           </True>

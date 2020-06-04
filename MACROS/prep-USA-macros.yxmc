@@ -59,9 +59,6 @@
 Query=`2012 COR Month-QTR Volume$`</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="F1" size="255" source="File: D:\workshop_june_2020\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
@@ -243,39 +240,6 @@ Query=`2012 COR Month-QTR Volume$`</DefaultAnnotationText>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
     </Node>
-    <Node ToolID="26">
-      <GuiSettings>
-        <Position x="330" y="222" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <Value name="Ranges">21-70</Value>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-        <MetaInfo connection="Output">
-          <RecordInfo>
-            <Field name="I-94 Arrivals based on Country of Residence (COR)" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="2012-01-01" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="2012-02-01" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="2012-03-01" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="2012-04-01" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="2012-05-01" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="2012-06-01" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="2012-07-01" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="2012-08-01" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="2012-09-01" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="2012-10-01" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="2012-11-01" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-            <Field name="2012-12-01" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
-          </RecordInfo>
-        </MetaInfo>
-      </Properties>
-      <EngineSettings Macro="C:\Users\HuyNguyen\Downloads\prep-all\_externals\2\SelectRecords.yxmc" />
-    </Node>
     <Node ToolID="27">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
         <Position x="426" y="222" />
@@ -320,7 +284,7 @@ Query=`2012 COR Month-QTR Volume$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="28">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="510" y="222" />
+        <Position x="522" y="222" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -350,7 +314,7 @@ location = "USA"
     </Node>
     <Node ToolID="29">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="606" y="222" />
+        <Position x="618" y="222" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -383,7 +347,7 @@ location = "USA"
     </Node>
     <Node ToolID="31">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
-        <Position x="690" y="222" />
+        <Position x="714" y="222" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -418,6 +382,42 @@ location = "USA"
         </Annotation>
       </Properties>
     </Node>
+    <Node ToolID="33">
+      <GuiSettings>
+        <Position x="330" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Ranges">21-70</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="I-94 Arrivals based on Country of Residence (COR)" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="2012-01-01" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="2012-02-01" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="2012-03-01" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="2012-04-01" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="2012-05-01" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="2012-06-01" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="2012-07-01" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="2012-08-01" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="2012-09-01" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="2012-10-01" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="2012-11-01" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+            <Field name="2012-12-01" size="255" source="File: \\Mac\Home\Desktop\transform_tourism_data\data_input\usa_input.xlsx|||`2012 COR Month-QTR Volume$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="SelectRecords.yxmc" />
+    </Node>
   </Nodes>
   <Connections>
     <Connection name="#1">
@@ -438,11 +438,7 @@ location = "USA"
     </Connection>
     <Connection>
       <Origin ToolID="25" Connection="Output" />
-      <Destination ToolID="26" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="26" Connection="Output" />
-      <Destination ToolID="27" Connection="Input" />
+      <Destination ToolID="33" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="27" Connection="Output" />
@@ -455,6 +451,10 @@ location = "USA"
     <Connection>
       <Origin ToolID="29" Connection="Output" />
       <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>
@@ -568,8 +568,8 @@ location = "USA"
       <Wiz_CustomGraphic value="False" />
       <Wiz_ShowOutput value="True" />
       <Wiz_OpenOutputTools>
-        <Tool ToolId="26" Selected="True" />
         <Tool ToolId="31" Selected="True" />
+        <Tool ToolId="33" Selected="True" />
       </Wiz_OpenOutputTools>
       <Wiz_OutputMessage />
       <Wiz_NoOutputFilesMessage />

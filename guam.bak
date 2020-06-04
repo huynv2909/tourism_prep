@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="27">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="54" y="54" width="745" height="222" />
+        <Position x="28.99999" y="17" width="745" height="222" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -21,7 +21,7 @@
       <ChildNodes>
         <Node ToolID="16">
           <GuiSettings>
-            <Position x="187" y="115" />
+            <Position x="162" y="77.99998" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -42,12 +42,15 @@
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
           </Properties>
           <EngineSettings Macro="Cleanse.yxmc" />
         </Node>
         <Node ToolID="17">
           <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
-            <Position x="283" y="115" />
+            <Position x="258" y="77.99998" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -75,7 +78,7 @@ ELSEIF SubString([...</DefaultAnnotationText>
         </Node>
         <Node ToolID="18">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-            <Position x="427" y="115" />
+            <Position x="402" y="78" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -106,7 +109,7 @@ ELSEIF SubString([...</DefaultAnnotationText>
         </Node>
         <Node ToolID="19">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
-            <Position x="523" y="103" />
+            <Position x="498" y="66" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -124,11 +127,11 @@ ELSEIF SubString([...</DefaultAnnotationText>
         </Node>
         <Node ToolID="21">
           <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-            <Position x="715" y="103" />
+            <Position x="690" y="66" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <TempFile>C:\Users\HP\AppData\Local\Temp\Engine_5672_7f895e7f74bc45fa92956ea4ac71deda_\Engine_9068_43dcf6e4a498437db201d8f26673165b_.yxdb</TempFile>
+              <TempFile>C:\Users\HUYNGU~1\AppData\Local\Temp\Engine_11492_d80cd90730384c059cbdecc1181db631_\Engine_2028_81e41c8e1bc041768eda81e86ffc145e_.yxdb</TempFile>
               <TempFileDataProfiling />
               <Layout>
                 <ViewMode>Single</ViewMode>
@@ -152,11 +155,11 @@ ELSEIF SubString([...</DefaultAnnotationText>
         </Node>
         <Node ToolID="41">
           <GuiSettings>
-            <Position x="79" y="115" />
+            <Position x="53.99999" y="78" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <Value name="Folder Browse (3)">data_input\guam</Value>
+              <Value name="Folder Browse (3)">C:\Users\HuyNguyen\Google Drive\workshops\alteryx_workshop_2020june\data_input\guam</Value>
               <Value name="Text Box (21)">*.pdf</Value>
             </Configuration>
             <Annotation DisplayMode="0">
@@ -172,7 +175,7 @@ ELSEIF SubString([...</DefaultAnnotationText>
         </Node>
         <Node ToolID="47">
           <GuiSettings>
-            <Position x="619" y="103" />
+            <Position x="594" y="66" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -186,11 +189,14 @@ Input=filter
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
-                <Field description="RegEx: Parsed from Data" name="market" size="64" source="Formula: [_CurrentField_] (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
-                <Field description="RegEx: Parsed from Data" name="number_visits" source="Formula: [_CurrentField_] (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Int32" />
-                <Field name="month_key" size="6" source="Formula: DateTimeFormat(DateTimeParse([Data],'%B %Y'),'%Y%m') (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
+                <Field description="RegEx: Parsed from Data" name="market" size="64" source="Formula: [_CurrentField_] (BatchMacro) (BatchMacro)" type="V_String" />
+                <Field description="RegEx: Parsed from Data" name="number_visits" source="Formula: [_CurrentField_] (BatchMacro) (BatchMacro)" type="Int32" />
+                <Field name="month_key" size="6" source="Formula: DateTimeFormat(DateTimeParse([Data],'%B %Y'),'%Y%m') (BatchMacro) (BatchMacro)" type="V_String" />
               </RecordInfo>
             </MetaInfo>
           </Properties>
@@ -200,7 +206,7 @@ Input=filter
     </Node>
     <Node ToolID="35">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="54" y="294" width="541" height="210" />
+        <Position x="29" y="257" width="541" height="210" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -218,17 +224,17 @@ Input=filter
       <ChildNodes>
         <Node ToolID="36">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Directory.Directory">
-            <Position x="79.00001" y="343" />
+            <Position x="54" y="306" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <Directory>data_input\guam\2019</Directory>
+              <Directory>D:\alteryx-pdf\read-pdf-on-Alteryx\2020</Directory>
               <FileSpec>*.*</FileSpec>
               <IncludeSubDirs value="False" />
             </Configuration>
             <Annotation DisplayMode="0">
               <Name />
-              <DefaultAnnotationText>dir data_input\guam\2019\*.*</DefaultAnnotationText>
+              <DefaultAnnotationText>dir D:\alteryx-pdf\read-pdf-on-Alteryx\2020\*.*</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
           </Properties>
@@ -236,7 +242,7 @@ Input=filter
         </Node>
         <Node ToolID="37">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="211" y="343" />
+            <Position x="186" y="306" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -254,7 +260,7 @@ Input=filter
         </Node>
         <Node ToolID="39">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="307" y="343" />
+            <Position x="282" y="306" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -275,11 +281,11 @@ Input=filter
         </Node>
         <Node ToolID="50">
           <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-            <Position x="511" y="343" />
+            <Position x="486" y="306" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <TempFile>C:\Users\HP\AppData\Local\Temp\Engine_5672_7f895e7f74bc45fa92956ea4ac71deda_\Engine_9068_1179152f0e0144dbb6aa3e1d51a9f272_.yxdb</TempFile>
+              <TempFile>C:\Users\HUYNGU~1\AppData\Local\Temp\Engine_11760_40594783f3b04772a78ab61deb9efbf6_\Engine_2028_179e26bab5de46bdb096eb57c6559bfd_.yxdb</TempFile>
               <TempFileDataProfiling />
               <Layout>
                 <ViewMode>Single</ViewMode>
@@ -303,7 +309,7 @@ Input=filter
         </Node>
         <Node ToolID="52">
           <GuiSettings>
-            <Position x="415" y="343" />
+            <Position x="390" y="306" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -317,9 +323,9 @@ Input=filter
             </Annotation>
             <MetaInfo connection="Output">
               <RecordInfo>
-                <Field description="RegEx: Parsed from Data" name="market" size="64" source="Formula: [_CurrentField_] (BatchMacro)" type="V_String" />
-                <Field description="RegEx: Parsed from Data" name="number_visits" source="Formula: [_CurrentField_] (BatchMacro)" type="Int32" />
-                <Field name="month_key" size="6" source="Formula: DateTimeFormat(DateTimeParse([Data],'%B %Y'),'%Y%m') (BatchMacro)" type="V_String" />
+                <Field description="RegEx: Parsed from Data" name="market" size="64" source="Formula: [_CurrentField_] (BatchMacro) (BatchMacro)" type="V_String" />
+                <Field description="RegEx: Parsed from Data" name="number_visits" source="Formula: [_CurrentField_] (BatchMacro) (BatchMacro)" type="Int32" />
+                <Field name="month_key" size="6" source="Formula: DateTimeFormat(DateTimeParse([Data],'%B %Y'),'%Y%m') (BatchMacro) (BatchMacro)" type="V_String" />
               </RecordInfo>
             </MetaInfo>
           </Properties>
